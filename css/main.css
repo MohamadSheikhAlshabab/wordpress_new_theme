@@ -1,0 +1,137 @@
+:root{
+    --primary-color:#DDE6ED;
+    --primary-background-color: #27374D;
+    --secondary-color:#9DB2BF;
+    --secondary-background-color: #526D82;
+    --page-color:#ff1;
+}
+body{
+    background-color: var(--secondary-background-color);
+    /* height: 100vh;
+    max-height: 100vh; */
+    padding-bottom: 5rem;
+}
+
+.main-container{
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    height: -webkit-fill-available;
+    max-height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.main-post{
+    padding: 2rem;
+    margin: 1rem;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+}
+.post-title{
+    color: var(--secondary-color);
+}
+.main-post img{
+    display: block;
+    margin: 10px 0 10px;
+}
+
+a,a:hover,a:focus,a:active{
+    color: #aa1;
+    text-decoration: none;
+}
+.posts-link{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 25vw;
+    background-color: var(--page-color);
+    color: var(--primary-background-color);
+}
+footer{
+    margin-top: 5rem;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    font-size: larger;
+    position:fixed;
+    bottom: 0px;
+    width: 100vw;
+    font-weight: bolder;
+}
+/* .pagination{
+    position: fixed;
+    bottom: 6rem;
+    left: 35rem;
+    right: 35rem;
+} */
+footer span{
+    color: var(--primary-color);
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+.comments-number, .comment{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #AAA;
+    background: var(--bs-border-color-translucent);
+    color: var(--primary-color);
+}
+/* .comment {
+
+} */
+.prev,.next{
+    /* width: 25vw; */
+    margin: 1rem;
+    padding: 1rem;
+}
+.slide{
+    height: 25vh;
+}
+
+.post-edit-link{
+    float: right;
+    text-decoration: none;
+    font-size: larger;
+    background: var(--bs-border-color);
+    color: var(--bs-black);
+    padding: 0.3rem;
+    margin: -2rem;
+}
+.container-testimonals {
+    position: absolute;
+    bottom: -155px;
+    left: -90px;
+    width: 30rem;
+}
+
+.card-testimonals{
+    padding: 2rem;
+    margin: 5rem;
+    margin-bottom: 10rem;
+    background: linear-gradient(#00728d,#000000bf);
+    color: #d5dcc6;
+}
+.title-testimonals{
+    /* font-size: smaller; */
+    font-weight: 900;
+}
+.text-testimonals{
+    font-size: medium;
+    font-weight: 400;
+}
+.h1-testimonals{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 20rem;
+    padding: 1rem;
+    margin: -4rem -1.4rem
+}
